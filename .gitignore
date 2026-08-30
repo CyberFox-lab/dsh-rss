@@ -1,0 +1,9 @@
+node_modules/
+lib/
+*.tgz
+*.log
+.DS_Store
+README.i18n.yaml
+design-qa*
+responsive-mobile.png
+session-switch-verification.png

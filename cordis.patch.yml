@@ -1,0 +1,5 @@
+- insert:
+    - id: rss
+      name: '@deepseek-ai/dsh-rss'
+      config:
+        autoRefreshIntervalMs: 3600000

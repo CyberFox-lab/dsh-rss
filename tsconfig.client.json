@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib/client-types",
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "noEmit": false,
+    "rewriteRelativeImportExtensions": true,
+    "types": ["react"]
+  },
+  "include": ["src/client/**/*.ts", "src/client/**/*.tsx", "src/rpc-contract.ts"]
+}
